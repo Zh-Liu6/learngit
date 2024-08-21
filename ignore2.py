@@ -4,7 +4,7 @@ import configparser
 config = configparser.ConfigParser()
 
 # 读取配置文件
-config.read('config.ini')
+config.read('./config.ini')
 
 # 获取配置信息
 db_host = config['Database']['host']
